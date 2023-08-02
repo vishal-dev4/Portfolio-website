@@ -1,0 +1,49 @@
+.footer{
+    display: flex;
+    align-items: center;
+    margin: -0.5rem -3.5rem;
+    position: relative;
+    margin-top: -7rem;
+}
+.f-contact{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 9rem;
+    color: white;
+}
+.f-contact>*{
+    margin-top: 8px;
+}
+.f-contact>h1{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.f-contact>h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+.f-icons{
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+.f-icons>*{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 480px){
+    .footer>img{
+        height: 25rem;
+    }
+    .f-icons{
+        transform: scale(0.8);
+    }
+    .footer p{
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,36 @@
+.card{
+    width: 11rem;
+    height: 13rem;
+    padding: 0 3px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    width: 10rem;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.26);
+    border: 7px solid var(--orangeCard);
+    border-radius: 1rem;
+}
+
+.card>span:nth-child(2){
+    color: var(--gray);
+    font-size: 15px;
+}
+.card>span:nth-child(3){
+    font-size: 13px;
+    
+}
+.card>img{
+    transform: scale(0.4);
+    margin-bottom: -2.5rem;
+    margin-top: -1.8rem;
+}
+
+
+@media screen and (max-width: 480px){
+    .card{
+        width: auto;
+    }
+}
