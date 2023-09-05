@@ -3,6 +3,7 @@
     height: 77vh;
     margin: 6rem;
     margin-top: 11rem;
+    
 }
 .i-left{
     display: flex;
@@ -30,10 +31,10 @@ position: relative;
 .i-name>:nth-child(2)::after{
 content: '|';
 position: absolute;
-right: 0;
+right: 3rem;
 color: var(--orange);
 background: white;
-width: 100%;
+width: 90%;
 animation: typing 4s steps(18) alternate infinite,
                line 1s infinite;
 }
@@ -41,10 +42,10 @@ animation: typing 4s steps(18) alternate infinite,
 #black_background::after{
     content: '|';
     position: absolute;
-    right: 0;
+    right: 3;
     color: var(--orange);
     background: black;
-    width: 100%;
+    width: 90%;
     animation: typing 4s steps(18) alternate infinite,
                    line 1s infinite;
 }
@@ -126,38 +127,45 @@ position: relative;
     .intro{
         flex-direction: column;
         height: 64rem;
-        gap: 7rem;
+        gap: 3rem;
+        border: 2px;
+        /* width: 100; */
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 5rem;
     }
+    
     .i-right{
-        transform: scale(0.8);
-        left: -6.8rem;
+        transform: scale(0.65);
+        left: -5rem;
     }
-    .i-right .blur{
+    .blur{
         display: none;
     }
     .i-icons{
+        margin-top: 1rem;
      align-items: center;
      align-self: center;
     }
     .floating-div:nth-of-type(1){
       top: -7rem !important;
-      width: 12rem;
-      margin-left: 1.5rem;
+      width: 11rem;
+      margin-left: 3.8rem;
     }
     .floating-div:nth-of-type(2){
         top: -2rem !important;
         width: 10rem;
-        margin-left: 11rem;
+        margin-left: 7.5rem;
       }
       
     .i-name>:nth-child(2)::after{
         content: '|';
         position: absolute;
-        right: -5.5rem;
-        top: 3.5rem;
+        right: 0rem;
+        top: 3.2rem;
         color: var(--orange);
         background: white;
-        width: 155%;
+        width: 100%;
         height: 4rem;
         animation: typing 4s steps(18) alternate infinite,
                line 1s infinite;
@@ -166,10 +174,10 @@ position: relative;
     #black_background::after{
         content: '|';
         position: absolute;
-        right: -5.5rem;
+        right: 0rem;
         color: var(--orange);
         background: black;
-        width: 155%;
+        width: 100%;
         animation: typing 4s steps(18) alternate infinite,
                    line 1s infinite;
     }

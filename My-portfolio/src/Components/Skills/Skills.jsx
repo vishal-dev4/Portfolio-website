@@ -35,7 +35,7 @@ function Skills() {
   const darkMode = theme.state.darkMode;
 
   return (
-    <div className='Skills' id='Skills'>
+    <div className='skills' id='Skills'>
       <div>
         <div className="awesome">
           <span style={{color: darkMode? 'white' : ''}}>My Awesome</span>
@@ -64,85 +64,98 @@ function Skills() {
       </div>
 
       <div className="all-skills">
-          {/* <div className='front-end'> */}
             
             <div className='all-f-skill'>
               <span>Frontend</span>
               <div>
-                  <div>
                         <div>
                         <img src={Html} alt="" />
+                        <span>HTML</span>
                         </div>
                         <div>
                         <img src={Css} alt="" />
+                        <span>CSS</span>
                         </div>
                         <div>
                         <img src={JavaScript} alt="" />
+                        <span>JAVASCRIPT</span>
                         </div>
                         <div>
                         <img src={Bootstrap} alt="" />
+                        <span>BOOTSTRAP</span>
                         </div>
                         <div>
                         <img src={Netlify} alt="" />
+                        <span>NETLIFY</span>
                         </div>
-                  </div>
-                    
-                  <div>
+
                     <div>
                       <img src={Reactjs} alt="" />
+                      <span>REACT</span>
                     </div>
                     <div>
                       <img src={Postman} alt="" />
+                      <span>POSTMAN</span>
                     </div>
                     <div>
                       <img src={Github} alt="" />
+                      <span>GITHUB</span>
                     </div>
                     <div>
-                      <img src={Cypress} alt="" /> 
+                      <img src={Cypress} alt="" />
+                      <span>CYPRESS</span> 
                     </div>
                     <div>
                       <img src={Json} alt="" />
+                      <span>JSON</span>
                     </div>
-                  </div>
-
-                  <div>
+                  
                     <div>
                       <img src={Redux} alt="" />
+                      <span>REDUX</span>
                     </div>
                     <div>
                       <img src={Typescript} alt="" /> 
+                      <span>TYPESCRIPT</span>
                     </div>
                     <div>
                       <img src={Material} alt="" />
+                      <span>MATERIAL UI</span>
                     </div>
                     <div>
                       <img src={Chakra} alt="" />
+                      <span>CHAKRA UI</span>
                     </div>
                     <div>
                       <img src={Vercel} alt="" />
+                      <span>VERCEL</span>
                     </div>
-                  </div>
+                 
             </div>
-          {/* </div> */}
+           </div>
 
           <div className="back-end">
             <span>Backend</span>
             <div className='back-end-skill'>
               <div>
               <img src={Node} alt="" />
+              <span>NODE JS</span>
               </div>
               <div>
               <img src={Express} alt="" />
+              <span>EXPRESS</span>
               </div>
               <div>
               <img src={Mongodb} alt="" />
+              <span>MONGO DB</span>
               </div>
               <div>
               <img src={Npm} alt="" />
+              <span>NPM</span>
               </div>
             </div>
           </div>
-      </div>
+     
       
       
      </div>

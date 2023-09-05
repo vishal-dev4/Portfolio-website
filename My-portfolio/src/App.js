@@ -3,7 +3,7 @@ import './App.css'
 import Intro from "./Components/Intro/Intro";
 import Skills from "./Components/Skills/Skills";
 import CodingOverview from "./Components/CodingOverview/CodingOverview";
-import Work from "./Components/Work/Work";
+import GithubStats from "./Components/GithubStats/GithubStats";
 import Projects from "./Components/Projects/Projects";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Components/Footer/Footer";
@@ -18,18 +18,17 @@ function App() {
   return (
     <div className="App" style={{
       background: darkMode? 'black': '', 
-      color: darkMode? 'white': ''
+      color: darkMode? 'white': '',
       }}>
-
-    <Navbar/>
-    <Intro/>
-    <About/>
-    <Skills/>
-    <CodingOverview/>
-    <Work/>
-    <Projects/>
-    <Contact/>
-    <Footer/>
+      <Navbar/>
+      <Intro/>
+      <About/>
+      <Skills/>
+      <CodingOverview/>
+      <GithubStats/>
+      <Projects/>
+      <Contact/>
+      <Footer/>
     </div>
   );
 }

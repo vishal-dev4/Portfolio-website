@@ -1,7 +1,8 @@
 .about{
     display: flex;
-    height: 40vh;
+    /* height: 40vh; */
     margin: 6rem;
+    
 }
 .a-left{
     display: flex;
@@ -58,13 +59,24 @@
 @media screen and (max-width: 480px){
     .about{
         flex-direction: column;
-        margin-bottom: 28rem;
+        width: 100%;
+        margin: auto;
+        margin-top: -11rem;
+    }
+    .a-left{
+        margin-bottom: -1rem;
     }
     .a-right>div{
         display: flex;
         flex-direction: column;
-      align-self: center;
-      margin-left: -1rem;
+        /* border: 1px solid pink; */
+        /* flex-direction: column; */
+        align-self: center;
+        margin-top: 1rem;
+        margin-left: 1.5rem;
+    }
+    .a-right>:nth-child(2)>:nth-child(1){
+        margin-top: -1.7rem;
     }
     .a-right>div{
       gap: 0px;

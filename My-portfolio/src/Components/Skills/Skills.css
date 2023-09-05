@@ -1,18 +1,23 @@
-.Skills{
+.skills{
     padding: 0 3rem 0 3rem;
     /* height: 90vh; */
-    margin-top: 5rem;
+    margin-top: 9rem;
     margin-bottom: 9rem;
     margin-left: 3rem;
 }
-.Skills>div{
+.skills>div{
     display: flex;
+    width: 100%;
 }
 .awesome{
     display: flex;
-    flex-direction: column;
     width: 41%;
+    flex-direction: column;
     position: relative;
+    margin-top: -1.5rem;
+}
+#Skills .awesome>span{
+    text-align: left;
 }
 .awesome> :nth-child(1){
     color: var(--black);
@@ -24,9 +29,10 @@
     font-size: 2.5rem;
     font-weight: bold;
 }
-.awesome> :nth-child(3){
+.skills .awesome> :nth-child(3){
     color: var(--gray);
     font-size: 17px;
+    font-weight: 100;
     margin-top: 1rem;
 }
 .s-button{
@@ -79,32 +85,53 @@
     text-align: center;
 }
 .all-f-skill>div{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  /* border: 2px solid rgb(51, 0, 255); */
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  place-items: center;
 }
-.all-f-skill>div>div{
-    display: flex;
-    justify-content: space-evenly;
-    /* border: 2px solid black; */
+.all-f-skill>div>:nth-child(1)>img{
+    transform: scale(0.73);
+    margin-bottom: 0rem;
+    margin-top: 3.4rem;
 }
-.all-f-skill>div>div>div{
-    height: 10rem;
-    /* border: 2px solid yellow; */
-    width: 19%;
+.all-f-skill>div>:nth-child(2)>img{
+    transform: scale(0.5);
 }
-.all-f-skill>div>div:nth-child(1)>div:nth-child(1)>img{
-    margin-top: 2.7rem;
+.all-f-skill>div>:nth-child(4)>img{
+    transform: scale(0.5);
+    margin-bottom: -2rem;
+    margin-top: 0.9rem;
 }
-.all-f-skill>div>div:nth-child(1)>div:nth-child(1)>img{
-    transform: scale(0.6);
+.all-f-skill>div>:nth-child(7)>img{
+    transform: scale(0.41);
+    margin-bottom: -3rem;
+    border-radius: 50%;
+    margin-top: 0.2rem;
 }
-.all-f-skill>div>div:nth-child(1)>div:nth-child(3)>img{
-    transform: scale(0.35);
+.all-f-skill>div>:nth-child(8)>img{
+    background-color: white;
+    border-radius: 50%;
 }
+.all-f-skill>div>:nth-child(9)>img{
+    border-radius: 50%;
+}
+.all-f-skill>div>:nth-child(5)>img{
+    background-color: white;
+    border-radius: 50%;
+}
+.all-f-skill>div>:nth-child(10)>img{
+    background-color: white;
+    border-radius: 50%;
+}
+.all-f-skill>div>:nth-child(15)>img{
+    background-color: white;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
 .all-f-skill img{
     width: 100%;
+    margin-bottom: -3rem;
 }
 
 .back-end{
@@ -113,11 +140,13 @@
     flex-direction: column;
     text-align: center;
     align-items: center;
+    margin-top: 6rem;
     /* border: 1px solid purple; */
 }
 
 .back-end-skill{
     display: flex;
+    margin-top: -1rem;
     justify-content: space-evenly;
     /* border: 2px solid black ; */
 }
@@ -126,30 +155,116 @@
     width: 24%;
     /* border: 2px solid red; */
 }
+.back-end-skill>div:nth-child(2)>img{
+   margin-bottom: -0.1rem;
+   margin-top: 3.2rem;
+  transform: scale(0.7);
+}
 .back-end-skill>div>img{
     width: 100%;
-    margin-top: -0.8rem;
-    /* border: 2px solid blue; */
-}
-.back-end-skill>div:nth-child(2)>img{
-    margin-top: 1.8rem;
-    transform: scale(0.7);
+    margin-bottom: -3.5rem;
 }
 
 
 @media screen and (max-width: 480px){
-    .Skills{
-        margin-top: 0rem;
-        flex-direction: column;
+    .skills{
+        margin: auto;
         gap: 5rem;
-        height: 66rem;
+        margin-top: 2rem;
+        width: 100%;
+        /* height: 66rem; */
         padding: 0;
-        margin-bottom: 23rem;
+        margin-bottom: 10rem;
+    }
+    .skills>div{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .awesome{
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 2rem;
+    }
+    .cards{
+        width: 100%;
+        margin-top: -1rem;
+        
+    }
+    .cards>:nth-child(1)>.card>img{
+        margin-top: -2.2rem;
+        margin-bottom: -3rem;
+    }
+    .cards>div{
+        margin-top: 2rem;
+    }
+    
+    .all-skills{
+        width: 80%;
+        margin: auto;
+        /* border: 2px solid purple; */
+        margin-top: 18rem;
+    }
+    .all-f-skill>div{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        margin-bottom: -2.5rem;
+    }
+    .all-f-skill>div>:nth-child(1)>img{
+        margin-bottom: -0.2rem;
+        margin-top: 1.9rem;
+    }
+    .all-f-skill>div>:nth-child(4)>img{
+        margin-bottom: -1.6rem;
+    }
+    .all-f-skill>div>:nth-child(7)>img{
+        margin-bottom: -2rem;
+        border-radius: 50%;
+    }
+    .all-f-skill>div>:nth-child(9)>img{
+        border-radius: 50%;
+    }
+    .all-f-skill>div>div>img{
+        /* transform: scale(0.5); */
+       margin-bottom: -2rem;
+    }
+    
+    .back-end-skill{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: -1rem;
+        place-items: center;
+        /* border: 1px solid black; */
+        row-gap: 0rem;
+    }
+    .back-end-skill>div{
+      width: 100%;
+      margin-bottom: -2.8rem;
+    }
+    .back-end-skill>div:nth-child(1)>img{
+        margin-bottom: -2rem;
+        
+    }
+    .back-end-skill>div:nth-child(2)>img{
+        margin-top: 2.2rem;
+
+    }
+    .back-end-skill>div:nth-child(1){
+        margin-top: 1rem;
+    }
+    .back-end-skill>div>img{
+        margin-bottom: -3rem;
+    }
+    .Skills .awesome{
+        margin-bottom: 1rem;
     }
     .cards{
         display: flex;
         flex-direction: column;
-        gap: 17rem;
+        gap: 15rem;
     }
     .cards>*{
         position: static;

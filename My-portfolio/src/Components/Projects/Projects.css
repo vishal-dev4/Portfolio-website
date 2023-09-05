@@ -3,8 +3,6 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
-    margin-top: -11rem;
 }
 .projects span:nth-child(1){
     color: var(--black);
@@ -16,26 +14,124 @@
     font-size: 2.5rem;
     font-weight: bold;
 }
+
 .projects .swiper{
     overflow: visible!important;
 }
+/* slider styled here */
 .projects-slider{
     margin-top: 3rem;
     width: 100%;
-   
+   position: relative;
+   height: 15.6rem;
+
 }
-.projects-slider .swiper-slide{
-    width: 20rem;
+.swiper-slide{
+    width: auto;
+    
+}
+
+/* slider styled to here */
+.p-card,.p-hidden{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 33%;
+    height: 15rem;
+    transition: opacity 0.3s, z-index 0.3s;
+}
+.p-card{
+    border: 3px solid orange;
+    border-radius: 19px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 0.2rem 0;
+    z-index: 1;
+    /* background-color: lightblue; */
+}
+
+.p-hidden{
+    border: 3px solid orange;
+    border-radius: 19px;
+    padding: 0.2rem 0;
+    display: flex;
+    color: var(--gray);
+    justify-content: space-between;
+    flex-direction: column;
+    opacity: 0;
+    z-index: 2;
+}
+.swiper-slide:hover .p-hidden{
+    opacity: 1;
+    z-index: 3;
+}
+.swiper-slide:hover .p-card{
+    opacity: 0;
+    z-index: 1;
 }
 .projects img{
-    width: 19rem;
+    width: 100%;
+    margin: auto;
     filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
     border-radius: 19px;
+    margin-top: 0.2rem;
+}
+.p-hidden>span:nth-child(1){
+    font-size: 30px;
+    text-align: center;
+}
+.p-hidden>span:nth-child(2){
+   text-align: left;
+   margin-left: 1rem;
+   font-size: 20px;
+}
+.p-staks{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.p-hidden>.p-staks>span{
+   font-size: 18px;
+}
+.p-card span:nth-child(1){
+    font-size: 30px;
+}
+.p-hidden .p-staks>span:nth-child(1){
+    margin-left: 1rem;
+}
+.p-hidden .p-staks>span:nth-child(2){
+    font-weight: 500;
+}
+
+.p-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 1rem 0.5rem 1rem;
+}
+.p-buttons>.button{
+    padding: 0.3rem 0.5rem;
+    border-radius: 10px;
 }
 
 @media screen and (max-width: 480px){
-    .projects-slider>*{
-       gap: 5rem;
-       left: -14rem;
+    .projects{
+        margin-top: 3rem;
+        margin-bottom: -3rem;
     }
+    .projects-slider{
+        /* height: 17.5rem; */
+        /* border: 1px solid blue; */
+        padding-right: 0rem;
+    }
+    .p-card,.p-hidden{
+        width: 100%;
+        height: 75%;
+    }
+    .p-hidden>span:nth-child(2){
+        font-size: 15px;
+    }
+    .p-hidden>.p-staks>span{
+        font-size: 15px;
+     }
 }

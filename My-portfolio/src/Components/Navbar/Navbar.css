@@ -2,11 +2,9 @@
     height: 10vh;
     display: flex;
     padding-top: 1rem;
-    width: 100%;
     margin: auto;
     background-color: white;
     justify-content: space-between;
-    
     padding-left: 3rem;
     position: fixed;
     top: 0;
@@ -53,22 +51,21 @@
 
 @media screen and (max-width: 480px){
     .n-left{
-        position: fixed;
-        left: 15rem;
         align-self: center;
         top: 2.2rem;
+        gap: 1rem;
+        margin-left: -2rem;
     }
     .n-wrapper{
         background-color: white;
-        width: 100%;
-        align-self: center;
-    }
-    .n-name{
-        padding-top: 10px;
+        display: flex;    
+        justify-content: space-between;
     }
     .menubar{
-        margin-top: 1.5rem;
-        margin-left: -20rem;
+        margin-right: -14rem;
+    }
+    .n-name{
+        padding-top: 5px;
     }
     .n-list>ul{
       display: flex;
@@ -79,14 +76,13 @@
     }
     .n-list{
         margin-top: 7rem;
-        margin-right: 14rem;
-        margin-left: -3rem;
+        margin-left: 2rem;
         background-color: orange; 
         /* z-index: 1; */
     }
     .close-menu{
-        margin-left: 7.8rem;
-        margin-top: 0.3rem;
+        margin-left: 8rem;
+        margin-top: 0.5rem;
         border: none;
         background-color: orange;
         z-index: 1;

@@ -12,7 +12,7 @@ import Crown from '../../img/crown.png';
 import {themeContext} from "../../Context";
 import { useContext } from "react";
 import {Link} from 'react-scroll';
-// import {motion} from 'framer-motion';
+//  import {motion} from 'framer-motion';
 
 
 
@@ -24,7 +24,7 @@ function Intro() {
   const darkMode = theme.state.darkMode;
 
   return (
-    <div className='intro'>
+    <div className='intro' id='Intro'>
       <div className="i-left">
         <div className="i-name">
             <span style={{color: darkMode? 'white': ''}}>Hey, I Am</span>

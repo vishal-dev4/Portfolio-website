@@ -28,7 +28,7 @@ function Contact() {
 
   return (
     <div className='contact-form' id='Contact'>
-      <div className="w-left">
+      <div className="c-left">
         <div className="awesome">
             <span style={{color: darkMode? 'white': ''}}>Get in touch</span>
             <span>Contact me</span>
@@ -39,10 +39,10 @@ function Contact() {
       </div>
       <div className="c-right">
         <form ref={form} onSubmit={sendEmail}>
-            <input type="text" name='user_name' className='user' placeholder='Name'/>
-            <input type="email" name='user_email' className='user' placeholder='Email'/>
+            <input type="text" name='user_name' className='user' placeholder='Name' required={true}/>
+            <input type="email" name='user_email' className='user' placeholder='Email' required={true}/>
             <input type='text' name='subject' className='user' placeholder='Subject'/>
-            <textarea name='message' className='user' placeholder='Message'/>
+            <textarea name='message' className='user' placeholder='Message' required={true}/>
             <input type="submit" value='Send' className='button' />
             <span>{done && "Thanks for contacting me!"}</span>
             <div className="blur c-blur1" style={{background: "var(--purple)"}}> </div>
