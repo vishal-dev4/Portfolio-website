@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Navbar.css';
-import Resume from '../resume.pdf';
+import Resume from '../My-resume.pdf';
 import Toggle from '../Toggle/Toggle';
 import Menu from '../../img/hamburger.png';
 import {Link} from 'react-scroll';

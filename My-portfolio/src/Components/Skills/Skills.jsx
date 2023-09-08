@@ -4,7 +4,7 @@ import Card from '../Cards/Card';
 import HeartEmoji from '../../img/heartemoji.png';
 import Glasses from '../../img/glasses.png';
 import Humble from '../../img/humble.png';
-import Resume from '../resume.pdf';
+import Resume from '../My-resume.pdf';
 import {themeContext} from "../../Context";
 import { useContext } from "react";
 import Html from '../../img/html.png';

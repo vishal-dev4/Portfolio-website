@@ -64,6 +64,9 @@
     }
     .stats>img:nth-child(1){
         margin-top: 3.8rem;
+        margin-bottom: 0.5rem;
+    }
+    .stats>img:nth-child(2){
         margin-bottom: 0.8rem;
     }
 }
