@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-website/static/css/main.f9ced8f5.css",
-    "main.js": "/Portfolio-website/static/js/main.69c1a67b.js",
+    "main.css": "/Portfolio-website/static/css/main.bc0d1a98.css",
+    "main.js": "/Portfolio-website/static/js/main.fb241312.js",
     "static/media/profile-pick(1).png": "/Portfolio-website/static/media/profile-pick(1).b0a72d6c37ea542e495e.png",
     "static/media/fitness-club.png": "/Portfolio-website/static/media/fitness-club.914b981ff873fd33533a.png",
     "static/media/realstate.png": "/Portfolio-website/static/media/realstate.b6de69727cd6d7053512.png",
@@ -33,11 +33,11 @@
     "static/media/npm.png": "/Portfolio-website/static/media/npm.5904c46fdce9a3192c3b.png",
     "static/media/stopwatch.png": "/Portfolio-website/static/media/stopwatch.5b776b79c08a7267acb4.png",
     "index.html": "/Portfolio-website/index.html",
-    "main.f9ced8f5.css.map": "/Portfolio-website/static/css/main.f9ced8f5.css.map",
-    "main.69c1a67b.js.map": "/Portfolio-website/static/js/main.69c1a67b.js.map"
+    "main.bc0d1a98.css.map": "/Portfolio-website/static/css/main.bc0d1a98.css.map",
+    "main.fb241312.js.map": "/Portfolio-website/static/js/main.fb241312.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9ced8f5.css",
-    "static/js/main.69c1a67b.js"
+    "static/css/main.bc0d1a98.css",
+    "static/js/main.fb241312.js"
   ]
 }
