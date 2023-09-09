@@ -55,6 +55,7 @@
         top: 2.2rem;
         gap: 1rem;
         margin-left: -2rem;
+
     }
     .n-wrapper{
         background-color: white;
@@ -75,17 +76,19 @@
         margin-top: -1rem;
     }
     .n-list{
-        margin-top: 7rem;
+        margin-top: 6.7rem;
         margin-left: 2rem;
         background-color: orange; 
         /* z-index: 1; */
     }
     .close-menu{
-        margin-left: 8rem;
-        margin-top: 0.5rem;
+        margin-left: 5px;
+        margin-top: 0.3rem;
         border: none;
         background-color: orange;
         z-index: 1;
+        background-color: aliceblue;
+        border-radius: 3px;
     }
     .n-button{
         display: none;
