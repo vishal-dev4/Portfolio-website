@@ -23,7 +23,7 @@ function About() {
                 I have completed my BCA (Bachelor of Computer Application) 
                 from Makhanlal Chaturvedi National University of Journalism and 
                 Communication, Bhopal. I enjoy learning computer programming and
-                fundamentals. My intrest in web development started back last
+                fundamentals. My interest in web development started back last
                 year when i was trying to edit things on the web-taught me a 
                 lot about HTML & CSS!.
                 </span>

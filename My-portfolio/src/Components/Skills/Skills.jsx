@@ -43,7 +43,7 @@ function Skills() {
           <span>As a full stack developer, I possess a comprehensive set of skills that enable me to handle all
             aspects of web application development. On the front-end, I excel in crafting intuitive and responsive
             user interfaces using HTML, CSS, and JavaScript. I have a strong command of modern and very famous 
-            front-end librarie React, allowing me to build dynamic and interactive web experiences.</span>
+            front-end library React, allowing me to build dynamic and interactive web experiences.</span>
           <a href={Resume} download><button className='button s-button'>Resume <span>&#8595;</span></button></a>
           
           <div className="blur s-blurl" style={{background: '#ABF1FF94'}}></div>
